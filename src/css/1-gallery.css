@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    margin-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 156px;
+    padding-right: 156px;
+    width: 1440px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-link:hover .gallery-image {
+    scale: 1.04;
+}
+
+.gallery-image {
+    width: 353px;
+    height: 200px;
+}
+
+.go-back {
+    display: block;
+    margin-bottom: 50px;
+}
